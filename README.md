@@ -1,1 +1,9 @@
-# python-snake-game
+Friendly Snake GUIA polished, desktop-based Snake game built with Python and Tkinter. This version features a modern dark-themed interface, adjustable difficulty settings, and persistent high-score tracking.✨ FeaturesCustomizable Speed: Real-time speed adjustment via a slider to change difficulty on the fly.Persistent High Scores: Your best score is automatically saved to a local file (snake_highscore.txt) and reloaded when you restart.Responsive Controls: Supports both standard Arrow Keys and WASD movement.Game State Management: Includes functional Start, Pause, and Restart buttons, along with keyboard shortcuts for each.Enhanced Visuals: Dark-mode aesthetic with a distinct head color and a subtle background grid for better navigation.
+
+🚀 Getting StartedPrerequisitesPython 3.x installed on your system.The tkinter library (standard in most Python installations).Installation & RunningDownload the snake.py file.Open your terminal or command prompt.Navigate to the folder containing the file.Launch the game:Bashpython snake.py
+
+🕹️ How to PlayControlsActionKeyboard ShortcutMoveArrow Keys or W, A, S, DPause/ResumeSpacebar or PRestartRGameplayObjective: Eat the red food to grow your snake and increase your score.Rules: The game ends if you hit the screen boundaries or collide with your own tail.Scoring: Each piece of food consumed adds 10 points to your total.
+
+🛠️ Technical OverviewThe game is built using an object-oriented approach, centering around the SnakeGame class which inherits from tk.Tk.GUI Engine: Tkinter Canvas for low-latency rendering of game cells.Collision Detection: Set-based logic to handle snake body coordinates and wall boundaries.I/O Handling: File handling with error catching to ensure the high-score system doesn't crash if the file is missing or corrupted.Game Loop: Uses the .after() method for non-blocking, recursive timing.
+
+📝 LicenseThis project is open-source and available for educational use.
